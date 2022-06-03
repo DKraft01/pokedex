@@ -1,38 +1,67 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 2vw;
+}
+.poke {
+  width: 20vh;
+  display: inline-block;
+  cursor: pointer;
+  border: solid 1px rgb(88, 68, 68);
+  border-radius: 2vh;
+  background-color: #091724;
+}
+
+.poke:hover {
+  width: 20.2vh;
+  background-color: rgb(219, 219, 219);
+}
+
+.pokeball {
+  display: inline-block;
+  margin-top: 2vh;
+  padding: 1vh;
+}
+
+.container {
   text-align: center;
+  background-color: #091725;
+  color: #e0cdcd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .capsule{
+  width: 40%;
+  height: 30%;
+  border: 1px solid black;
+  border-radius: 2%;
+  position:relative;
+  
+ margin: auto;
+
+  margin-top: 2vh;
+  font-size:11px;
+  padding: 2vh;
+  font-weight:bolder;
+  background-color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+body{background-color: brown;}
+
+.profile{width: 10vh;
+  display: inline-block;
+position:relative;
+margin-right: 5vh;
+border-radius: 50%;
+cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.nombre{
+  position: absolute;
+  left: 15vh;
+  margin-top: 5vh;
+  top: 0;
+} */
